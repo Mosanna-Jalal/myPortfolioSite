@@ -1,0 +1,306 @@
+.menu{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    position:fixed;
+    height: 100px;
+    z-index: 10;
+}
+/* second half */
+.copyright{
+    background-color: black;
+    text-align: center;
+}
+.footer img{
+    padding-bottom: 4px;
+}
+.carousel-fade{
+    width: 45%;
+    margin: auto;
+}
+li{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0;
+   
+}
+.info-link{
+    color:cornflowerblue ;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-size: 17px;
+    margin: auto;
+    padding-right: 3rem;
+}
+.zero-bottom{
+    margin-bottom: 0;
+}
+.hotpink{
+    color: gray;
+}
+.certificate-link{
+    color: cornflowerblue;
+    margin-left: 40%;
+}
+ol{
+    width: 80%;
+    margin-left: 7.5%;
+}
+.fs{
+    color: darkgrey;
+}
+ul{
+    color: darkslategray;
+}
+/* second half */
+.connect{
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    text-decoration: overline;
+}
+body{
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width:205px;
+}
+.two{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+}
+.hy{
+    margin-left: 50px;
+    margin-top: 150px;
+    line-height:5rem;
+    color: brown;
+}
+.samad{
+   font-size: 100px;
+   color:crimson;
+}
+.web-developer{
+    margin-left: 50px;
+    line-height: 2rem;
+}
+.samadPic{
+    height: 300px;
+    width: 150px;
+    margin-top: 150px;
+}
+.carousel-item{
+    height: 350px;
+    width: 100%;
+}
+.technical-skills{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(126, 122, 122);
+    text-decoration:underline lightgrey;
+    color: magenta;
+}
+.technologies{
+    width: 50%;
+    margin: auto;
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 35px;
+    position:sticky;
+}
+.code{
+    color: aliceblue;
+}
+.elegant{
+    margin: auto;
+    border-radius: 25px;
+    width: 40%;
+    color: white;
+    font-weight: 12px;
+    background-size: contain;
+    height: 290px;
+    opacity: 0.75;
+    border: 8px solid black;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUevh_3VA11TebMQtUeV6tQ0JkvKVHPrrk858138wsfk2jLt2mAQQs1WG-a8nuryCRGKI&usqp=CAU");
+}
+.elegant code{
+    margin-left: 70px;
+    margin-top: 50px;
+    position: absolute
+}
+.elegant label{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 150px;
+}
+.elegant-link{
+    color: aliceblue;
+}
+.elegant-link:hover{
+    color: darkkhaki;
+}
+.down-arrow{
+    margin: auto;
+    width: 40px;
+    margin-left: 50%;
+}
+.kps{
+    margin: auto;
+    border-radius: 25px;
+
+    width: 40%;
+    color: black;
+    font-weight: 12px;
+    background-size: contain;
+    text-align: center;
+    height: 190px;
+    opacity: 0.75;
+    border: 8px solid black;
+    background-repeat: no-repeat;
+    background-image: url("http://kpscollegegaya.in/Kps/logo.png");
+}
+
+.aec{
+    margin: auto;
+    width: 40%;
+    border-radius: 25px;
+    color: whitesmoke;
+    font-weight: 12px;
+    background-size: contain;
+    text-align: center;
+    height: 245px;
+    opacity: 0.75;
+    border: 8px solid black;
+    
+    background-repeat: no-repeat;
+    background-image: url("https://lh5.googleusercontent.com/p/AF1QipPEja7jOBvfepHGHO-j0vI9JAwtAsBRR35Yb4Ck=w1080-k-no");
+}
+.connect{
+    position: sticky;
+}
+/* MEDIA */
+@media only screen and (max-width: 450px) {
+    /* For mobile phones: */
+   .logo{
+       margin-top: 30px;
+       /* margin-right: 10%; */
+       height: 300px;
+       width: 100%;
+   }
+   .carousel-fade{
+       width: 100%;
+   }
+   .hy{
+       margin: 0;
+       text-align: center;
+   }
+   .web-developer{
+       margin: auto;
+       align-self: center;
+       text-align: center !important;
+   }
+   .wd{
+       margin-left: 40%;
+   }
+   .menu{
+       height: 330px;
+       width: 70%;
+       display: none;
+   }
+   .two{
+    margin-top: 0px;
+   
+   }
+   .samadPic{
+       margin-top: 250px;
+       display: inline;
+       margin-left: 30%;
+   }
+   .mosanna{
+       text-align: center;
+   }
+   .contact-no{
+       margin-top: -15%;
+       visibility: hidden;
+   }
+   .lsh{
+      margin-left: 30%;
+   }
+   .email-media {
+       margin-top: -20%;
+       margin-left: 20%;
+       color: beige;
+   }
+  .technologies{
+      width: 80%;
+      height: 280px;
+  }
+  .elegant{
+      width: 95%;
+    background-size: cover;
+  }
+  .elegant code{
+      margin-left:8%;
+  }
+  .elegant label{
+      margin-left: 35%;
+  }
+  .aec h4 b{
+      margin-left: 20%;
+  }
+  .kps{
+      width: 95%;
+  }
+  .aec{
+    width: 95%;
+    background-size: cover;
+}
+   .cv{
+      margin-left: 30%;
+   }
+   li{
+       text-align: center;
+       margin: 0;
+       margin-bottom: 0;
+   }
+   ul{
+       font-family: 'Courier New', Courier, monospace;
+       color: gray;
+       font-size: 17px;
+       margin: auto;
+       padding-right: 3rem;
+       list-style: circle;
+   }
+   .zero-bottom{
+       margin-bottom: 0;
+   }
+   .hotpink{
+       color: darkgray;
+   }
+   .certificate-link{
+       color: cornflowerblue;
+       margin-left: 15%;
+   }
+   ol{
+       width: 80%;
+       margin-left: 7.5%;
+   }
+   .fs{
+       color: lightslategray;
+   }
+   .two{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+}
